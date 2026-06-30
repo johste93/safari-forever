@@ -26,7 +26,7 @@ The code is published here to preserve the history of the project, and in the ho
 
 All 13,392 community-created levels have been preserved and are [available for download](https://drive.google.com/file/d/1UGUCbsiEplORwexyyKhf_Wu5FXNQGgsa/view).
 
-## Stats
+## Game Stats
 
 
 |                          |                                                                                                                                                                           |
@@ -40,21 +40,28 @@ All 13,392 community-created levels have been preserved and are [available for d
 | Total deaths             | 2,784,751 |
 | Total bananas collected  | 6,188,715 |
 
+## 🏆 Safari Forever — Hall of Fame 🏆
 
-### Most plays earned as a creator
+### Player Records
+🎮 Most levels played — gghgzt (10,475)
+🏁 Most levels completed — gghgzt (10,316)
+👑 Most world records held — gghgzt (4,771)
+🍌 Most bananas collected — Kostja (735,630)
+📅 Most daily challenges completed — Kostja (1,402)
+🥇 Most daily challenges won — Kostja (1,003)
 
-| #   | Player       | Total Plays |
-| --- | ------------ | ----------- |
-| 1   | yot          | 5,538       |
-| 2   | Ashwin       | 3,171       |
-| 3   | Menma        | 2,964       |
-| 4   | Moiocool     | 2,772       |
-| 5   | GrabeR       | 2,738       |
-| 6   | Legende      | 1,959       |
-| 7   | L4           | 1,744       |
-| 8   | Davi monteir | 1,610       |
-| 9   | gghgzt       | 1,569       |
-| 10  | Dk           | 1,494       |
+### Creator Records
+🛠️ Most levels published — safarint3 (268)
+▶️ Most plays earned — yot (5,538)
+✅ Most completions earned — yot (4,467)
+
+### Level Records
+🔥 Most played level — Untapped Precision by DonnAwesome (925 plays)
+❤️ Most liked level — Untapped Precision by DonnAwesome (356 likes)
+💀 Most dangerous level — Laborious Shift by CLUBSTEP2000 (13,168 deaths)
+🏅 Most completed level — Intelligent Rethinking by 1nkFa1c0n (851 wins)
+
+## Leaderboards
 
 ### Most levels personally played
 
@@ -71,6 +78,21 @@ All 13,392 community-created levels have been preserved and are [available for d
 | 9   | yot         | 2,217         |
 | 10  | BuddyBud    | 2,133         |
 
+### Most levels personally completed
+
+| #   | Player      | Levels Completed |
+| --- | ----------- | ------------- |
+| 1   | gghgzt      | 10,316        |
+| 2   | Ministry697 | 5,998         |
+| 3   | Kostja      | 3,464         |
+| 4   | Areyouok    | 3,216         |
+| 5   | puff        | 3,154         |
+| 6   | Badankan    | 3,004         |
+| 7   | uuuutm      | 2,778         |
+| 8   | smb1        | 2,700         |
+| 9   | yot         | 2,158         |
+| 10  | BuddyBud    | 1,997         |
+
 ### Most published levels
 
 | #   | Player       | Published Levels |
@@ -86,7 +108,22 @@ All 13,392 community-created levels have been preserved and are [available for d
 | 9   | Davi monteir | 117              |
 | 10  | Hans         | 83               |
 
-### Most levels beaten
+### Most plays earned as a creator
+
+| #   | Player       | Total Plays |
+| --- | ------------ | ----------- |
+| 1   | yot          | 5,538       |
+| 2   | Ashwin       | 3,171       |
+| 3   | Menma        | 2,964       |
+| 4   | Moiocool     | 2,772       |
+| 5   | GrabeR       | 2,738       |
+| 6   | Legende      | 1,959       |
+| 7   | L4           | 1,744       |
+| 8   | Davi monteir | 1,610       |
+| 9   | gghgzt       | 1,569       |
+| 10  | Dk           | 1,494       |
+
+### Most completions on created levels
 
 | #   | Player       | Total Wins |
 | --- | ------------ | ---------- |
@@ -100,6 +137,7 @@ All 13,392 community-created levels have been preserved and are [available for d
 | 8   | safarint3    | 1,434      |
 | 9   | Davi monteir | 1,331      |
 | 10  | Beez88       | 1,227      |
+
 
 ### Most daily challenges completed
 
@@ -191,7 +229,7 @@ All 13,392 community-created levels have been preserved and are [available for d
 | 4 | Euphemistic Rail | gghgzt | Areyouok | 10,439 |
 | 5 | Horrifying Mansion | Kostja | gghgzt | 9,267 |
 
-### Most beaten levels
+### Most completed levels
 
 | # | Level | Creator | Record Holder | Wins |
 |---|---|---|---|---|
