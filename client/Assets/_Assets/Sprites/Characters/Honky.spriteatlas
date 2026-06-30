@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Honky
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 3ac292b8e361baf4c8ff180d298d5768, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - 3ac292b8e361baf4c8ff180d298d5768: -14324601677955725
+    - 3ac292b8e361baf4c8ff180d298d5768: 8093409687479292134
+    - 3ac292b8e361baf4c8ff180d298d5768: 5221474012432191386
+    - 3ac292b8e361baf4c8ff180d298d5768: 991762053956913053
+    - 3ac292b8e361baf4c8ff180d298d5768: 8539804487084177937
+    - 3ac292b8e361baf4c8ff180d298d5768: 2013857454069798826
+    - 3ac292b8e361baf4c8ff180d298d5768: -552906741645310873
+    - 3ac292b8e361baf4c8ff180d298d5768: -2256297222701828788
+    - 3ac292b8e361baf4c8ff180d298d5768: -3469526916176931302
+    - 3ac292b8e361baf4c8ff180d298d5768: 7125539892021788777
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: -14324601677955725, guid: 3ac292b8e361baf4c8ff180d298d5768, type: 3}
+  - {fileID: 8093409687479292134, guid: 3ac292b8e361baf4c8ff180d298d5768, type: 3}
+  - {fileID: 5221474012432191386, guid: 3ac292b8e361baf4c8ff180d298d5768, type: 3}
+  - {fileID: 991762053956913053, guid: 3ac292b8e361baf4c8ff180d298d5768, type: 3}
+  - {fileID: 8539804487084177937, guid: 3ac292b8e361baf4c8ff180d298d5768, type: 3}
+  - {fileID: 2013857454069798826, guid: 3ac292b8e361baf4c8ff180d298d5768, type: 3}
+  - {fileID: -552906741645310873, guid: 3ac292b8e361baf4c8ff180d298d5768, type: 3}
+  - {fileID: -2256297222701828788, guid: 3ac292b8e361baf4c8ff180d298d5768, type: 3}
+  - {fileID: -3469526916176931302, guid: 3ac292b8e361baf4c8ff180d298d5768, type: 3}
+  - {fileID: 7125539892021788777, guid: 3ac292b8e361baf4c8ff180d298d5768, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Honky_9
+  - Honky_8
+  - Honky_3
+  - Honky_2
+  - Honky_1
+  - Honky_0
+  - Honky_7
+  - Honky_6
+  - Honky_5
+  - Honky_4
+  m_RenderDataMap: {}
+  m_Tag: Honky
+  m_IsVariant: 0

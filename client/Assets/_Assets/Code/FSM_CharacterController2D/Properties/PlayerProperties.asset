@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48027dabf9dbcce4880cc0ae5849c267, type: 3}
+  m_Name: PlayerProperties
+  m_EditorClassIdentifier: 
+  movementSpeed: 6.5
+  maxJumpHeight: 3.5
+  flutterJumpDuration: 0.6
+  flutterJumpCounterForce: 60
+  flutterJumpMinimumVelocity: -3.5
+  maxWallSlideSpeed: 3
+  wiggleRoomSecounds: 0.15
+  wiggleRoomDistance: 0.2
+  gravity: -46
+  maxFallSpeed: -46
+  minimumJumpPercent: 0.3
+  defaultState: 0
+  whatIsPlatform:
+    serializedVersion: 2
+    m_Bits: 12582913
+  whatIsSlope:
+    serializedVersion: 2
+    m_Bits: 262144

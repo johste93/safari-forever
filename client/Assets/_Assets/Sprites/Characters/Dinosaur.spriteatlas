@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Dinosaur
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 15188e046271c354087d73b1df35aa40, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - 15188e046271c354087d73b1df35aa40: 3797980832501754369
+    - 15188e046271c354087d73b1df35aa40: -1732313333494859201
+    - 15188e046271c354087d73b1df35aa40: 5052270489657315355
+    - 15188e046271c354087d73b1df35aa40: -4516506554551477953
+    - 15188e046271c354087d73b1df35aa40: -3396752871990354128
+    - 15188e046271c354087d73b1df35aa40: 4998070136450819468
+    - 15188e046271c354087d73b1df35aa40: -2990145775076409375
+    - 15188e046271c354087d73b1df35aa40: -9138502691153655901
+    - 15188e046271c354087d73b1df35aa40: -4999739986058629477
+    - 15188e046271c354087d73b1df35aa40: 620430854991091990
+    - 15188e046271c354087d73b1df35aa40: 226405702702965685
+    - 15188e046271c354087d73b1df35aa40: 3620823182582022009
+    - 15188e046271c354087d73b1df35aa40: -3187875618433125209
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 3797980832501754369, guid: 15188e046271c354087d73b1df35aa40, type: 3}
+  - {fileID: -1732313333494859201, guid: 15188e046271c354087d73b1df35aa40, type: 3}
+  - {fileID: 5052270489657315355, guid: 15188e046271c354087d73b1df35aa40, type: 3}
+  - {fileID: -4516506554551477953, guid: 15188e046271c354087d73b1df35aa40, type: 3}
+  - {fileID: -3396752871990354128, guid: 15188e046271c354087d73b1df35aa40, type: 3}
+  - {fileID: 4998070136450819468, guid: 15188e046271c354087d73b1df35aa40, type: 3}
+  - {fileID: -2990145775076409375, guid: 15188e046271c354087d73b1df35aa40, type: 3}
+  - {fileID: -9138502691153655901, guid: 15188e046271c354087d73b1df35aa40, type: 3}
+  - {fileID: -4999739986058629477, guid: 15188e046271c354087d73b1df35aa40, type: 3}
+  - {fileID: 620430854991091990, guid: 15188e046271c354087d73b1df35aa40, type: 3}
+  - {fileID: 226405702702965685, guid: 15188e046271c354087d73b1df35aa40, type: 3}
+  - {fileID: 3620823182582022009, guid: 15188e046271c354087d73b1df35aa40, type: 3}
+  - {fileID: -3187875618433125209, guid: 15188e046271c354087d73b1df35aa40, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Dinosaur_12
+  - Dinosaur_10
+  - Dinosaur_11
+  - Dinosaur_9
+  - Dinosaur_8
+  - Dinosaur_7
+  - Dinosaur_6
+  - Dinosaur_5
+  - Dinosaur_4
+  - Dinosaur_3
+  - Dinosaur_2
+  - Dinosaur_1
+  - Dinosaur_0
+  m_RenderDataMap: {}
+  m_Tag: Dinosaur
+  m_IsVariant: 0

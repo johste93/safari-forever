@@ -1,0 +1,9 @@
+lastUpgrade=01014
+proj.pluginVersion=0.10.14
+proj.AppId=
+and.BundleId=com.chumpware.safariforever
+proj.classDir=Assets
+proj.ConstantsClassName=GPGSIds
+and.ResourceData=
+and.ClientId=
+android.SetupDone=true

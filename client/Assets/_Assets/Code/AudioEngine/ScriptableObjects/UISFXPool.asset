@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d7df516cacffe34e909ae66cba71ccd, type: 3}
+  m_Name: UISFXPool
+  m_EditorClassIdentifier: 
+  tallButtonDown:
+    clips:
+    - {fileID: 8300000, guid: f73317bfb1ac0314f91063546b2ce2d3, type: 3}
+    defaultVolume: 1
+    defaultPitch: 1
+    loop: 0
+  tallButtonUp:
+    clips:
+    - {fileID: 8300000, guid: a9bc14b067c9ee14a82ba118eb69560a, type: 3}
+    defaultVolume: 1
+    defaultPitch: 0.7
+    loop: 0
+  flatButton:
+    clips:
+    - {fileID: 8300000, guid: b16a447037f2388448f0a383571909d3, type: 3}
+    defaultVolume: 0.25
+    defaultPitch: 1
+    loop: 0
+  tabChange:
+    clips:
+    - {fileID: 8300000, guid: 0fb688948ca3d9e43bbaa8fabbdf43a9, type: 3}
+    defaultVolume: 0.5
+    defaultPitch: 1
+    loop: 0
+  deathEffect:
+    clips:
+    - {fileID: 8300000, guid: 0623c2b78dff64d4fa5170aa301b3ec3, type: 3}
+    defaultVolume: 1
+    defaultPitch: 1
+    loop: 0
+  levelEntityScaling:
+    clips:
+    - {fileID: 8300000, guid: 95263c7124814294b90eb555bf9856d6, type: 3}
+    - {fileID: 8300000, guid: 4693dfc4194b96e47acd755a0119e405, type: 3}
+    defaultVolume: 1
+    defaultPitch: 1
+    loop: 0
+  musicSwitch:
+    clips:
+    - {fileID: 8300000, guid: 195dda73e557b77449331aaadffb242b, type: 3}
+    - {fileID: 8300000, guid: a0fd1ef51cb91004da66e3bb45f632ce, type: 3}
+    - {fileID: 8300000, guid: 5873f25e804fe1047bbbe9c3e2094e23, type: 3}
+    defaultVolume: 0.75
+    defaultPitch: 1.5
+    loop: 0
+  dialogBoxOpen:
+    clips:
+    - {fileID: 8300000, guid: c7852e17b7c7f45f3bc189fb81374278, type: 3}
+    defaultVolume: 1
+    defaultPitch: 1
+    loop: 0
+  dialogBoxClose:
+    clips:
+    - {fileID: 8300000, guid: 668f30755f46e4e0c88166c88e786248, type: 3}
+    defaultVolume: 1
+    defaultPitch: 1
+    loop: 0
+  ready:
+    clips:
+    - {fileID: 8300000, guid: e29cfabfd94bc47539fbd0fe71bb9e22, type: 3}
+    defaultVolume: 0.25
+    defaultPitch: 1.05
+    loop: 0
+  slotMachine:
+    leverDown:
+      clips:
+      - {fileID: 8300000, guid: 269e1dc6ebadee44ea2b77fa251be94d, type: 3}
+      defaultVolume: 1
+      defaultPitch: 1
+      loop: 0
+    leverUp:
+      clips:
+      - {fileID: 8300000, guid: 836904975a1b8294f97d9ae8143dd05f, type: 3}
+      defaultVolume: 1
+      defaultPitch: 1
+      loop: 0
+    win:
+      clips:
+      - {fileID: 8300000, guid: 77fab8f2b09a5304a8a2cd38f327f83c, type: 3}
+      defaultVolume: 0.6
+      defaultPitch: 1
+      loop: 0
+    loose:
+      clips:
+      - {fileID: 8300000, guid: 7f2405dd1eb8e104a9b4067ccf5ba8cf, type: 3}
+      defaultVolume: 0.4
+      defaultPitch: 1
+      loop: 0
+    spinnTick:
+      clips:
+      - {fileID: 8300000, guid: 6b34a270aa84d704ca7aba6a9853765f, type: 3}
+      defaultVolume: 1
+      defaultPitch: 1
+      loop: 0

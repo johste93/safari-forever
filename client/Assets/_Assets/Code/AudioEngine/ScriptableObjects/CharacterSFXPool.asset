@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c576dde2d05c144b939670e461dafd0, type: 3}
+  m_Name: CharacterSFXPool
+  m_EditorClassIdentifier: Assembly-CSharp::AnimalSFXPool
+  jump:
+    clips:
+    - {fileID: 8300000, guid: 77ceb4b7fdb2d824c9a9c5db5f1370ba, type: 3}
+    - {fileID: 8300000, guid: 07372c6ceaf92a842892d898ed33f6d8, type: 3}
+    - {fileID: 8300000, guid: 5aa008165c135f74aa87633132da4a6d, type: 3}
+    - {fileID: 8300000, guid: 7f6905e38ebe474409eb3221b2b547b6, type: 3}
+    defaultVolume: 0.8
+    defaultPitch: 1
+    loop: 0
+  flutter:
+    clips:
+    - {fileID: 8300000, guid: ead81b5390ffa8d45a5824c82e6e3591, type: 3}
+    defaultVolume: 1
+    defaultPitch: 1
+    loop: 0
+  land:
+    clips:
+    - {fileID: 8300000, guid: ea4c2b6b101b8c04c9a0527d618d42fe, type: 3}
+    - {fileID: 8300000, guid: 65f4feca7ffb65741bd63ea40cfaf532, type: 3}
+    defaultVolume: 0.3
+    defaultPitch: 1
+    loop: 0
+  turn:
+    clips:
+    - {fileID: 8300000, guid: 07b7c8acd4bb00f45a1b3afa05bbb12c, type: 3}
+    defaultVolume: 1
+    defaultPitch: 1
+    loop: 0
+  slide:
+    clips:
+    - {fileID: 8300000, guid: 6c222b23c4e37494d8de82c8ff6bf201, type: 3}
+    defaultVolume: 0.3
+    defaultPitch: 1
+    loop: 1
+  scream:
+    clips:
+    - {fileID: 8300000, guid: d9f90f749d146be4aa58e73fd5e91d69, type: 3}
+    - {fileID: 8300000, guid: 8317a0ac2f926ff44a6a2d78ee88aa48, type: 3}
+    - {fileID: 8300000, guid: 74faeb02d2df9de4d83a9ef07846769e, type: 3}
+    - {fileID: 8300000, guid: eb4514b579a883846872a32cbbcf979d, type: 3}
+    - {fileID: 8300000, guid: 05af7c894bfa14e4aa09058eb22cbc00, type: 3}
+    - {fileID: 8300000, guid: 1ef233a8f24ab3c4586640b10312399d, type: 3}
+    defaultVolume: 1
+    defaultPitch: 1
+    loop: 0
+  bounce:
+    clips:
+    - {fileID: 8300000, guid: 05eda3eb8f8b28543bf0e895e1dc2b48, type: 3}
+    defaultVolume: 1
+    defaultPitch: 1
+    loop: 0

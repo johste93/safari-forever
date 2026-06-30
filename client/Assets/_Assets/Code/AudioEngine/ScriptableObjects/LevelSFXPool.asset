@@ -1,0 +1,281 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d741bcbd75e082d42ae24e5446e2dc8c, type: 3}
+  m_Name: LevelSFXPool
+  m_EditorClassIdentifier: 
+  flagPole:
+    wiggle:
+      clips:
+      - {fileID: 8300000, guid: d83632cb1afa67a4ca0fa5b77b220070, type: 3}
+      defaultVolume: 1
+      defaultPitch: 1
+      loop: 0
+    flagDown:
+      clips:
+      - {fileID: 8300000, guid: ec63833fee1e52548adf6bc9f56f483d, type: 3}
+      defaultVolume: 1
+      defaultPitch: 1
+      loop: 0
+    flagUp:
+      clips:
+      - {fileID: 8300000, guid: a611750fdb8b77449ab16da9f0cfdc0e, type: 3}
+      defaultVolume: 1
+      defaultPitch: 1
+      loop: 0
+    backflip:
+      clips:
+      - {fileID: 8300000, guid: c141b0b50075e3748a477f257a10a506, type: 3}
+      defaultVolume: 1
+      defaultPitch: 1
+      loop: 0
+    fanfare:
+      clips:
+      - {fileID: 8300000, guid: 4aba4d3be4c615745a5cd0c5f44bcc40, type: 3}
+      defaultVolume: 1
+      defaultPitch: 1
+      loop: 0
+  door:
+    open:
+      clips:
+      - {fileID: 8300000, guid: da1ee6c2cf134454bbe691fe2de1a0cf, type: 3}
+      defaultVolume: 1
+      defaultPitch: 1
+      loop: 0
+    close:
+      clips:
+      - {fileID: 8300000, guid: 25b365abeebfd24498f6fbb5f9e7190a, type: 3}
+      defaultVolume: 1
+      defaultPitch: 1
+      loop: 0
+  cannon:
+    fire:
+      clips:
+      - {fileID: 8300000, guid: db5b91cde3f0d6344819632253e3226d, type: 3}
+      - {fileID: 8300000, guid: f7e2df41b090d1046a145aa3caec47e9, type: 3}
+      - {fileID: 8300000, guid: fa0c5fce399c8584c947b8b502235c17, type: 3}
+      - {fileID: 8300000, guid: b88c6ac905389fe47804e760695c4a93, type: 3}
+      defaultVolume: 0.6
+      defaultPitch: 0.6
+      loop: 0
+  breakableBlock:
+    smash:
+      clips:
+      - {fileID: 8300000, guid: 1e4d84a0a56e5844bb08b831b0d6b9a1, type: 3}
+      defaultVolume: 1
+      defaultPitch: 1
+      loop: 0
+  saw:
+    cut:
+      clips:
+      - {fileID: 8300000, guid: fbae90aa942b2f045b89f1511515107b, type: 3}
+      defaultVolume: 0.8
+      defaultPitch: 1
+      loop: 0
+  logicSwitch:
+    beep:
+      clips:
+      - {fileID: 8300000, guid: 3840cac111cc4164aafd8225659d34d3, type: 3}
+      - {fileID: 8300000, guid: b5a53212c0df7d6489425e4276efd2a4, type: 3}
+      defaultVolume: 0.1
+      defaultPitch: 2
+      loop: 0
+    create:
+      clips:
+      - {fileID: 8300000, guid: 4823ac10f9fdb4248bfb2af6e275faaf, type: 3}
+      defaultVolume: 0.5
+      defaultPitch: 1
+      loop: 0
+    attach:
+      clips:
+      - {fileID: 8300000, guid: a2c8e1c50ce327d48a7930bfa942cb4c, type: 3}
+      defaultVolume: 0.5
+      defaultPitch: 1
+      loop: 0
+    detach:
+      clips:
+      - {fileID: 8300000, guid: 0f672c1eb6b0a2746aa24abf848c5d29, type: 3}
+      defaultVolume: 0.5
+      defaultPitch: 1
+      loop: 0
+  spikeTrap:
+    trigger:
+      clips:
+      - {fileID: 8300000, guid: 6a9c8286bd1322740b0730f173fdc34b, type: 3}
+      defaultVolume: 1
+      defaultPitch: 1
+      loop: 0
+  spike:
+    impale:
+      clips:
+      - {fileID: 8300000, guid: e2e3815b27e4414469f501f69e854b5a, type: 3}
+      defaultVolume: 1
+      defaultPitch: 1
+      loop: 0
+  jumpPad:
+    jump:
+      clips:
+      - {fileID: 8300000, guid: b6b9d91202f3aa4459eb4c9ba8249689, type: 3}
+      - {fileID: 8300000, guid: dc28d1a6ed1e5f54eb536f4634862c9a, type: 3}
+      defaultVolume: 1
+      defaultPitch: 1
+      loop: 0
+  fire:
+    burn:
+      clips:
+      - {fileID: 8300000, guid: d658dcc42736c2140aabbc23cea351b7, type: 3}
+      defaultVolume: 1
+      defaultPitch: 1
+      loop: 0
+  crush:
+    crush:
+      clips:
+      - {fileID: 8300000, guid: 74576f4d6abb2774baee9ad1851a9974, type: 3}
+      defaultVolume: 1
+      defaultPitch: 1
+      loop: 0
+  gate:
+    open:
+      clips:
+      - {fileID: 8300000, guid: be0e71afcea3d48e08d409ad03a6c64b, type: 3}
+      defaultVolume: 1
+      defaultPitch: 1
+      loop: 0
+    close:
+      clips:
+      - {fileID: 8300000, guid: a6a20ec0834bf4b8c92e7893655d1ebd, type: 3}
+      defaultVolume: 1
+      defaultPitch: 1
+      loop: 0
+  slice:
+    slice:
+      clips:
+      - {fileID: 8300000, guid: 9f650706e32e244ef8ddfef6829ccedd, type: 3}
+      defaultVolume: 1
+      defaultPitch: 1
+      loop: 0
+  warp:
+    enter:
+      clips:
+      - {fileID: 8300000, guid: 04417dd8c53827c4084fd8ce4772feb4, type: 3}
+      defaultVolume: 0.15
+      defaultPitch: 1.5
+      loop: 0
+    exit:
+      clips:
+      - {fileID: 8300000, guid: 9cdb5d38cd8ae8d40ba09a1ce09e842d, type: 3}
+      defaultVolume: 0.15
+      defaultPitch: 1.5
+      loop: 0
+    travel:
+      clips:
+      - {fileID: 8300000, guid: 0521e6a1b0cd54e45b184a76a5db18a8, type: 3}
+      defaultVolume: 0.15
+      defaultPitch: 1
+      loop: 0
+  spikeball:
+    splat:
+      clips:
+      - {fileID: 8300000, guid: 226b81ef207fdac468898a36b2427664, type: 3}
+      defaultVolume: 0.5
+      defaultPitch: 1.25
+      loop: 0
+  noteBox:
+    sfx:
+      clips:
+      - {fileID: 8300000, guid: 915c5c4b191182c47ac7a1905f46daa6, type: 3}
+      - {fileID: 8300000, guid: b05c9d503ba559a40a78949cfe47b9be, type: 3}
+      - {fileID: 8300000, guid: 15af995b86c2fce42ba8b143a31a4259, type: 3}
+      - {fileID: 8300000, guid: 81f9e9c344ff8ab489456b59400c99c6, type: 3}
+      - {fileID: 8300000, guid: e2e18d9ca7852544d9700c6d1ce6de15, type: 3}
+      - {fileID: 8300000, guid: 0c6552a75e9d0204bb1fc7e29d8546cb, type: 3}
+      defaultVolume: 1
+      defaultPitch: 1
+      loop: 0
+    octave_high:
+      clips:
+      - {fileID: 8300000, guid: b44d19a6e48053b40bbf13551f85640c, type: 3}
+      - {fileID: 8300000, guid: 280dfe5f2f1fa044094c6c10e0d0e4bc, type: 3}
+      - {fileID: 8300000, guid: 3ea5f4fb55b285b40bc69a2551328c44, type: 3}
+      - {fileID: 8300000, guid: ce43ea80b1f24394483fafb4eb02f671, type: 3}
+      - {fileID: 8300000, guid: b2361c9fdb6a23d48b71ad93f41808c1, type: 3}
+      - {fileID: 8300000, guid: 1bc9065d4163f5e48ac5433697da91df, type: 3}
+      - {fileID: 8300000, guid: afdfdbd860499f54a940a92d2164dea1, type: 3}
+      - {fileID: 8300000, guid: 2bd621379dbc0ff4a9d60365e6cbd7b5, type: 3}
+      defaultVolume: 1
+      defaultPitch: 1
+      loop: 0
+    octave_medium:
+      clips:
+      - {fileID: 8300000, guid: 47b12d257a572af4b8f89c390c769529, type: 3}
+      - {fileID: 8300000, guid: c9bd61cb58fd8df47b0f0e4c55da1587, type: 3}
+      - {fileID: 8300000, guid: 64ab70a58b900ef41a1dbdf2e419f180, type: 3}
+      - {fileID: 8300000, guid: d3f18c5a6d2543449b349403b571b84d, type: 3}
+      - {fileID: 8300000, guid: ec189acf2fa81b44bba707cde6a3f982, type: 3}
+      - {fileID: 8300000, guid: 34618f6a827565747a9dc1eafc2f9123, type: 3}
+      - {fileID: 8300000, guid: 5d291e56fc5ee9e4e9e59102d38435fc, type: 3}
+      - {fileID: 8300000, guid: 9a2d7039508f8a1429d474fa42975760, type: 3}
+      defaultVolume: 1
+      defaultPitch: 1
+      loop: 0
+    octave_low:
+      clips:
+      - {fileID: 8300000, guid: 0ba4d837ce8cc5147a2c00c8a477e21a, type: 3}
+      - {fileID: 8300000, guid: e613e800149388c4799cd4b681b18522, type: 3}
+      - {fileID: 8300000, guid: f2f72a0c16d12674e98bb548acbf6f65, type: 3}
+      - {fileID: 8300000, guid: 858de8f3c72bc7640a3a48367e34999b, type: 3}
+      - {fileID: 8300000, guid: 411c11672d4b3f441ad99a6d2a53dece, type: 3}
+      - {fileID: 8300000, guid: 027e7b8632249134ab7aec42b7b27e05, type: 3}
+      - {fileID: 8300000, guid: 6ca3c65be39da8f418d6ef7e9d634c21, type: 3}
+      - {fileID: 8300000, guid: 583bdb175db402548b7bb7074a96abe0, type: 3}
+      defaultVolume: 1
+      defaultPitch: 1
+      loop: 0
+  lockAndKey:
+    unlock:
+      clips:
+      - {fileID: 8300000, guid: 5c4cc1ac75262db49a6db6f4d9041c17, type: 3}
+      defaultVolume: 1
+      defaultPitch: 1
+      loop: 0
+  laser:
+    warmup:
+      clips:
+      - {fileID: 8300000, guid: 61e7055d64ea2db48a13f3c54a4964cb, type: 3}
+      defaultVolume: 0.1
+      defaultPitch: 1
+      loop: 0
+    beam:
+      clips:
+      - {fileID: 8300000, guid: cf94adbe28b845f4b9b66b5a4baef568, type: 3}
+      defaultVolume: 0.3
+      defaultPitch: 1
+      loop: 0
+  bubble:
+    enter:
+      clips:
+      - {fileID: 8300000, guid: 23e1877539eafd541ac36fc6a43c4f95, type: 3}
+      defaultVolume: 0.2
+      defaultPitch: 1
+      loop: 0
+    pop:
+      clips:
+      - {fileID: 8300000, guid: 468a9f12d880a6849be9fbbe2162ee29, type: 3}
+      defaultVolume: 1
+      defaultPitch: 1
+      loop: 0
+  electric:
+    zap:
+      clips:
+      - {fileID: 8300000, guid: c8900d069f64cc44898578b82e2d3d22, type: 3}
+      defaultVolume: 0.5
+      defaultPitch: 1
+      loop: 0

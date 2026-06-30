@@ -1,0 +1,6 @@
+{
+    "AutomatedSetup": true,
+    "PhotoLibraryUsageDescription": "",
+    "PhotoLibraryAdditionsUsageDescription": "Safari Forever requires access to Photos to save up to 15 seconds of gameplay gifs to it.",
+    "DontAskLimitedPhotosPermissionAutomaticallyOnIos14": true
+}

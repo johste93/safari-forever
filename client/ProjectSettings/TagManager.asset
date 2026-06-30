@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - OneWayGateNorth
+  - OneWayGateEast
+  - OneWayGateSouth
+  - OneWayGateWest
+  - OneWayPlatform
+  - Bullet
+  - Breakable
+  - Slime
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Player
+  - Handle
+  - Trigger
+  - Selectable
+  - TransitionQuad
+  - Particles
+  - Interactable
+  - Gizmo
+  - Node
+  - Link
+  - Slope
+  - PopupCanvas
+  - Enemy
+  - DamageTrigger
+  - Cannon
+  - OneWayPlatform
+  - Watermark
+  - Metaball
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Interactive
+    uniqueID: 3798743155
+    locked: 0
+  - name: Player
+    uniqueID: 1272722827
+    locked: 0
+  - name: UI
+    uniqueID: 3230676353
+    locked: 0

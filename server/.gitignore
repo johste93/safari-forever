@@ -1,0 +1,8 @@
+.vs/SFServer/DesignTimeBuild/.dtbcache
+.vs/SFServer/v16/Server/sqlite3/storage.ide-wal
+.vs/SFServer/v16/Server/sqlite3/storage.ide-shm
+.vs/SFServer/v16/Server/sqlite3/storage.ide
+.vs/SFServer/v16/.suo
+SFServer/secrets.env
+SFServer/*.env
+SFServer/winscp.log

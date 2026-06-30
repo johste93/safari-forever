@@ -1,0 +1,18 @@
+﻿{
+    "completedOldUserLevel": 10,
+    "completedNewUserLevel": 30,
+    "recivedLike": 10,
+    "maxLikeRewards": 1000,
+    "completedPromotedLevel": 30,
+    "completedCampaignLevel": 50,
+    "dailyChallengeParticipation": 100, //150
+    "dailyChallengeThirdPlace": 150, //150
+    "dailyChallengeSecondPlace": 300, //350
+    "dailyChallengeFirstPlace": 500, //850
+    "recruitAFriend": 500,
+    "recruitmentReward": 1000,
+
+    "completedLevelBaseReward":  10,
+    "completedNewUserLevelMultipler": 3,
+    "dailyChallengeParticipationMultiplier": 5 //15
+}

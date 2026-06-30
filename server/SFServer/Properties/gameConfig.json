@@ -1,0 +1,8 @@
+{
+    "MaxPlaysInNewCategory": 30,
+    "LevelsPrPage": 20,
+    "NotificationsPrPage": 20,
+    "UsersPrPage": 20,
+    "EndlessLeaderboardUsersPrPage": 100,
+    "EndlessChallengeSkipCost": 100
+}

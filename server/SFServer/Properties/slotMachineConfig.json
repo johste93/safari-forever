@@ -1,0 +1,6 @@
+﻿{
+  "LossChance": 0.3,
+  "BaseCost": 500,
+  "CostIncrement": 100,
+  "MinimumBet": 200
+}

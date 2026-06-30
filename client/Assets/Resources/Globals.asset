@@ -1,0 +1,167 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8572b4ed44966fd4e8c26c2fb9b96b3d, type: 3}
+  m_Name: Globals
+  m_EditorClassIdentifier: 
+  _gameConstants:
+    targetFramerate: 60
+    standardTapDuration: 0.3
+    blockBudget: 640
+    levelWidth: 16
+    levelHeight: 20
+    maxNumberOfRooms: 4
+    maxNumberOfBullets: 40
+    colorSpace: 1
+    tileOffset: {x: 0.5, y: 0.5}
+    whatIsPlayer:
+      serializedVersion: 2
+      m_Bits: 256
+    whatIsEnemy:
+      serializedVersion: 2
+      m_Bits: 1048576
+    transitionInDuration: 0.5
+    transitionOutDuration: 0.5
+    levelIdLenght: 5
+    latestCompatibleVersion: 0.73
+  _musicConstants:
+    defaultVolume: 0.1
+  _localizationConstants:
+    defaultLanguage: 0
+    enabledLanguages:
+    - language: 0
+      enabled: 1
+    - language: 1
+      enabled: 1
+    - language: 2
+      enabled: 1
+    - language: 3
+      enabled: 1
+    - language: 4
+      enabled: 1
+    - language: 5
+      enabled: 1
+    - language: 6
+      enabled: 1
+    - language: 7
+      enabled: 0
+    - language: 8
+      enabled: 0
+    - language: 9
+      enabled: 1
+    - language: 10
+      enabled: 1
+    - language: 11
+      enabled: 0
+    - language: 12
+      enabled: 1
+    - language: 13
+      enabled: 0
+    - language: 14
+      enabled: 1
+    - language: 15
+      enabled: 1
+    - language: 16
+      enabled: 1
+    - language: 17
+      enabled: 1
+    - language: 18
+      enabled: 0
+    - language: 19
+      enabled: 0
+    - language: 20
+      enabled: 0
+    - language: 21
+      enabled: 1
+    - language: 22
+      enabled: 0
+    - language: 23
+      enabled: 0
+    - language: 24
+      enabled: 0
+    - language: 25
+      enabled: 0
+    - language: 26
+      enabled: 0
+    - language: 27
+      enabled: 1
+    - language: 28
+      enabled: 0
+  _accessibilityConstants:
+    standard:
+      stylized: {fileID: 11400000, guid: 36b062c5b9e9e28469a0162d8d54a750, type: 2}
+      stylizedOutlined: {fileID: 11400000, guid: af93a4d77510f9d4fb07e18a1934f859,
+        type: 2}
+      regular: {fileID: 11400000, guid: 36b062c5b9e9e28469a0162d8d54a750, type: 2}
+      regularOutlined: {fileID: 11400000, guid: af93a4d77510f9d4fb07e18a1934f859,
+        type: 2}
+    dyslexic:
+      stylized: {fileID: 11400000, guid: c6cf1c027d03ab64eaafd2351552c301, type: 2}
+      stylizedOutlined: {fileID: 11400000, guid: 8fe7302b121ca9d44a158bd87b10f591,
+        type: 2}
+      regular: {fileID: 11400000, guid: c6cf1c027d03ab64eaafd2351552c301, type: 2}
+      regularOutlined: {fileID: 11400000, guid: 8fe7302b121ca9d44a158bd87b10f591,
+        type: 2}
+    rubik:
+      stylized: {fileID: 11400000, guid: 39dd1a5f2b60b414b8bc58316b783538, type: 2}
+      stylizedOutlined: {fileID: 11400000, guid: 1faa9b1a099d60944b4e76ce3959623f,
+        type: 2}
+      regular: {fileID: 11400000, guid: 39dd1a5f2b60b414b8bc58316b783538, type: 2}
+      regularOutlined: {fileID: 11400000, guid: 1faa9b1a099d60944b4e76ce3959623f,
+        type: 2}
+    fira:
+      stylized: {fileID: 11400000, guid: 245d899414d50a0488bd7abfaba13573, type: 2}
+      stylizedOutlined: {fileID: 11400000, guid: 1e6840f7688b5ad429445f4784949d30,
+        type: 2}
+      regular: {fileID: 11400000, guid: 245d899414d50a0488bd7abfaba13573, type: 2}
+      regularOutlined: {fileID: 11400000, guid: 1e6840f7688b5ad429445f4784949d30,
+        type: 2}
+  _clientSecret:
+    salt: [REDACTED]
+  _webConstants:
+    useLocalHost: 0
+    localHost: http://localhost:5000/
+    serverUrl: https://api2.safariforever.com/
+  _gifConstants:
+    repeats: 1
+    minimumSystemMemorySize: 2500
+    minimumNumberOfProcessorCores: 4
+    qualitySettings:
+    - quality: 0
+      duration: 10
+      fps: 22
+      width: 475
+      height: 475
+      processingQuality: 80
+    - quality: 1
+      duration: 10
+      fps: 22
+      width: 475
+      height: 475
+      processingQuality: 5
+  _iAPConstants:
+    characterIds:
+    - iap.character.chicken
+    - iap.character.dinosaur
+    - iap.character.elephant
+    - iap.character.giraffe
+    - iap.character.goose
+    - iap.character.lion
+    - iap.character.monkey
+    - iap.character.penguin
+    - iap.character.platypus
+    - iap.character.shark
+    - iap.character.snail
+    - iap.character.zebra
+    - iap.character.wolf
+  _debugConstants:
+    verboseLogging: 0
+    saveLevelsPlayedAsWIP: 0

@@ -1,0 +1,37 @@
+﻿version: "3"
+networks:
+  my_network:
+    driver: bridge
+
+services:
+  api:
+    build: .
+    image: sfimg
+    container_name: sfserver
+    restart: always
+    networks: 
+      - my_network
+    env_file:
+      - secrets.env
+
+
+  proxy:
+    image: aheimsbakk/https-proxy:6.1
+    container_name: my_proxy
+    restart: always
+    networks: 
+      - my_network
+    ports:
+      - "443:443"
+    volumes:
+      - /etc/letsencrypt:/etc/letsencrypt
+    environment:
+      - SERVER_NAME=play.safariforever.com
+      - SERVER_ADMIN=noreply@safariforever.com
+      - SSL_CERT_FILE=/etc/letsencrypt/live/play.safariforever.com/cert.pem
+      - SSL_PRIVKEY_FILE=/etc/letsencrypt/live/play.safariforever.com/privkey.pem
+      - SSL_CHAIN_FILE=/etc/letsencrypt/live/play.safariforever.com/chain.pem
+    depends_on:
+      - api
+    links:
+      - api:http

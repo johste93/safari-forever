@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Snail
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: a1d14dfcd13522f4095c8f586e3d7adb, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - a1d14dfcd13522f4095c8f586e3d7adb: 3350741328065828820
+    - a1d14dfcd13522f4095c8f586e3d7adb: -1607883213482362498
+    - a1d14dfcd13522f4095c8f586e3d7adb: 6743772630308857331
+    - a1d14dfcd13522f4095c8f586e3d7adb: 5775183222150665815
+    - a1d14dfcd13522f4095c8f586e3d7adb: -1668735184860776392
+    - a1d14dfcd13522f4095c8f586e3d7adb: -1835416473053800366
+    - a1d14dfcd13522f4095c8f586e3d7adb: 7884678185709809828
+    - a1d14dfcd13522f4095c8f586e3d7adb: 3970442127866805413
+    - a1d14dfcd13522f4095c8f586e3d7adb: 2843924970130025639
+    - a1d14dfcd13522f4095c8f586e3d7adb: -3658352992817530408
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 3350741328065828820, guid: a1d14dfcd13522f4095c8f586e3d7adb, type: 3}
+  - {fileID: -1607883213482362498, guid: a1d14dfcd13522f4095c8f586e3d7adb, type: 3}
+  - {fileID: 6743772630308857331, guid: a1d14dfcd13522f4095c8f586e3d7adb, type: 3}
+  - {fileID: 5775183222150665815, guid: a1d14dfcd13522f4095c8f586e3d7adb, type: 3}
+  - {fileID: -1668735184860776392, guid: a1d14dfcd13522f4095c8f586e3d7adb, type: 3}
+  - {fileID: -1835416473053800366, guid: a1d14dfcd13522f4095c8f586e3d7adb, type: 3}
+  - {fileID: 7884678185709809828, guid: a1d14dfcd13522f4095c8f586e3d7adb, type: 3}
+  - {fileID: 3970442127866805413, guid: a1d14dfcd13522f4095c8f586e3d7adb, type: 3}
+  - {fileID: 2843924970130025639, guid: a1d14dfcd13522f4095c8f586e3d7adb, type: 3}
+  - {fileID: -3658352992817530408, guid: a1d14dfcd13522f4095c8f586e3d7adb, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Snail_1_9
+  - Snail_1_8
+  - Snail_1_7
+  - Snail_1_6
+  - Snail_1_5
+  - Snail_1_4
+  - Snail_1_3
+  - Snail_1_2
+  - Snail_1_1
+  - Snail_1_0
+  m_RenderDataMap: {}
+  m_Tag: Snail
+  m_IsVariant: 0

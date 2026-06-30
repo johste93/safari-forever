@@ -1,0 +1,83 @@
+@model SFServer.Models.DTO.LevelViewDTO
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <link rel="apple-touch-icon" sizes="180x180" href="../static/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../static/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../static/favicon-16x16.png">
+    <link rel="manifest" href="../static/site.webmanifest">
+    <link rel="mask-icon" href="../static/safari-pinned-tab.svg" color="#22bb1c">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="thumbnail" content="@Model.PathToThumbnail">
+    <meta property="og:title" content="Safari Forever">
+    <meta property="og:description" content="@Model.Description">
+    <meta property="og:image" content="@Model.PathToThumbnail">
+    <meta property="og:image:width" content="512">
+    <meta property="og:image:height" content="512">
+    <meta property="og:url" content="https://safariforever.com">
+    <meta name="twitter:card" content="summary">
+
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Safari Forever</title>
+    <script src="../%UNITY_WEBGL_LOADER_URL%"></script>
+    <meta name="description" content="Safari Forever WebGL">
+    <meta name="author" content="Johannes Stensen">
+    <script>
+        UnityLoader.instantiate("unityContainer", "../%UNITY_WEBGL_BUILD_URL%");
+    </script>
+</head>
+<style>
+        @@font-face {
+            font-family: 'palameciaregular';
+            src: url('palamecia-webfont.woff2') format('woff2'),
+                url('palamecia-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        html {
+            width: 100%;
+            height: 100%;
+        }
+
+        body {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            margin: 0;
+            padding: 0;
+            background-repeat: repeat;
+            background-color: @Model.WallColor;
+        }
+
+        #wrapper {
+            width: 800px;
+            height: 100%;
+            margin: 0 auto;
+        }
+
+        #logo {
+            width: 50%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 25px;
+            padding-bottom: 25px;
+        }
+
+        #unityContainer {
+            width: 800px;
+            height: 800px;
+        }
+</style>
+<body>
+    <div id="wrapper">
+
+        <img id="logo" src="../static/SafariLogo.png" alt="safari forever logo" />
+        <div id="unityContainer"></div>
+
+    </div>
+</body>
+</html>

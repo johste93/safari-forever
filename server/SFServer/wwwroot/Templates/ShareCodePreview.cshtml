@@ -1,0 +1,266 @@
+﻿@model SFServer.Models.DTO.LevelViewDTO
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="apple-touch-icon" sizes="180x180" href="static/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="static/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="static/favicon-16x16.png">
+    <link rel="manifest" href="static/site.webmanifest">
+    <link rel="mask-icon" href="static/safari-pinned-tab.svg" color="#22bb1c">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="thumbnail" content="@Model.PathToThumbnail">
+    <meta property="og:title" content="Safari Forever">
+    <meta property="og:description" content="@Model.Description">
+    <meta property="og:image" content="@Model.PathToThumbnail">
+    <meta property="og:image:width" content="512">
+    <meta property="og:image:height" content="512">
+    <meta property="og:url" content="https://safariforever.com">
+    <meta name="twitter:card" content="summary">
+
+    <title>Safari Forever</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0" />
+
+    <meta name="description" content="Safari Forever Sharecode Preview">
+    <meta name="author" content="Johannes Stensen">
+</head>
+<style>
+    html {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    body {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        position: relative;
+        margin: 0;
+        padding: 0;
+        background-image: url("static/background2.png");
+        background-repeat: repeat;
+    }
+
+    /* REMOVED: palamecia font files were removed before open-sourcing (commercial/unknown license).
+       Replace with a suitable web font and update the font-family references below. */
+
+    .aspect-ratio--16x9 {
+        width: 50.625vh; /* ratio = 9/16 * 90 = 50.625 */
+        height: 90vh; /* 90% of viewport vidth */
+        max-height: 160vw; /* 16/9 * 90 = 160 */
+        max-width: 90vw;
+        margin: auto;
+        position: absolute;
+        top: 2vh;
+        left: 0;
+        right: 0;
+    }
+
+    #inner-wrapper {
+        width: 100%;
+        height: 100%;
+    }
+
+    #inner-wrapper > * {
+        width: 100%;
+        max-width: 100%;
+        margin-right: auto; /* 1 */
+        margin-left: auto; /* 1 */
+    }
+
+    #logo {
+        position: relative;
+        width: 80%;
+        left: 10%;
+        margin-bottom: 10%;
+    }
+
+    #lightbeams {
+        position: absolute;
+        width: 200%;
+        margin-top: -60%; /* 100% - (width% / 2)*/
+        margin-left: -60%; /* 100% - (width% / 2)*/
+        opacity: 0.5;
+        z-index: -3;
+        -webkit-animation: spin 36s linear infinite;
+        -moz-animation: spin 36s linear infinite;
+        animation: spin 36s linear infinite;
+    }
+
+    @@-moz-keyframes spin {
+        100% {
+            -moz-transform: rotate(-360deg);
+        }
+    }
+
+    @@-webkit-keyframes spin {
+        100% {
+            -webkit-transform: rotate(-360deg);
+        }
+    }
+
+    @@keyframes spin {
+        100% {
+            -webkit-transform: rotate(-360deg);
+            transform: rotate(-360deg);
+        }
+    }
+
+    #previewImgBorder {
+        width: 80%;
+        background-color: white;
+        border-radius: 10%;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 1.75%;
+        margin-bottom: 15%;
+        pointer-events: none;
+        cursor: default;
+    }
+
+    #previewImg {
+        width: 100%;
+        border-radius: 9%;
+    }
+
+    a {
+        text-decoration: none;
+        color: #2E2E2E;
+    }
+
+
+    #playButton {
+        width: 75%;
+        height: 10%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    #buttonPusher {
+        width: 100%;
+        height: 0px;
+    }
+
+    #playButtonSurface {
+        width: 100%;
+        height: 85%;
+        background-color: white;
+        border-radius: 15px;
+        position: relative;
+        z-index: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'palamecia';
+        font-weight: bold;
+    }
+
+    #playButtonBackground {
+        width: 100%;
+        height: 100%;
+        background-color: #2E2E2E;
+        opacity: 0.5;
+        border-radius: 15px;
+        margin-top: -20%;
+    }
+
+    #playButton:active > #buttonPusher {
+        height: 10%;
+    }
+
+    #playButton:active > #playButtonSurface {
+        background-color: #eee;
+    }
+
+    #playButton:active > #playButtonBackground {
+        height: 90%;
+    }
+
+    iframe {
+        position: absolute;
+        display: block;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding:0.5%;
+        border:0;
+    }
+
+    #iframeContainer{
+        position: relative;
+        width: 100%;
+        height: 0;
+        padding-top: 100%;
+    }
+</style>
+<body bgcolor="@Model.WallColor">
+    <div class="aspect-ratio--16x9">
+        <div id="inner-wrapper">
+            <img id="logo" src="static/SafariLogo.png" alt="safari forever logo" />
+
+            <div id="previewImgBorder">
+                <img id="lightbeams" src="static/lightbeams.png" alt="animated lightbeams around preview image" />
+                <img id="previewImg" src="@Model.PathToThumbnail" alt="level preview image" />
+            </div>
+
+            <div id="playButton" onclick="OnClickPlay()">
+                <div id="buttonPusher"></div>
+                <div id="playButtonSurface">Play</div>
+                <div id="playButtonBackground"></div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="static/fittext.js"></script>
+    <script>
+        fitText(document.getElementById('playButtonSurface'), 0.8);
+
+        function getMobileOperatingSystem() {
+          var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+            // Windows Phone must come first because its UA also contains "Android"
+            if (/windows phone/i.test(userAgent)) {
+                return "Windows Phone";
+            }
+
+            if (/android/i.test(userAgent)) {
+                return "Android";
+            }
+
+            // iOS detection from: http://stackoverflow.com/a/9039885/177710
+            if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+                return "iOS";
+            }
+
+            // iPad Pro detection. iPad pretends to be mac. Check if its a mac with touchscreen.
+            if (/MacIntel/.test(navigator.platform) && navigator.maxTouchPoints && navigator.maxTouchPoints > 2) {
+                return "iOS";
+            }
+
+            return "unknown";
+        }
+
+        function OnClickPlay() {
+
+            var operatingSystem = getMobileOperatingSystem();
+
+            if(operatingSystem == "iOS" || operatingSystem == "Android")
+	        {
+		        location.href = "@Model.PlayButtonUrl";
+	        }
+	        else
+	        {
+                location.href = "https://safariforever.com/download";
+            }
+        }
+    </script>
+</body>
+</html>
+
+

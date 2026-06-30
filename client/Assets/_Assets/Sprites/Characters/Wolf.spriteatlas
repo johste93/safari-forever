@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Wolf
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: c405619126d214e2fba716f29a458b47, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - c405619126d214e2fba716f29a458b47: 6891357095817125983
+    - c405619126d214e2fba716f29a458b47: 2672853027243246175
+    - c405619126d214e2fba716f29a458b47: -458185587419916677
+    - c405619126d214e2fba716f29a458b47: -5547194825390550217
+    - c405619126d214e2fba716f29a458b47: 5184831053750644559
+    - c405619126d214e2fba716f29a458b47: 4345086733073366625
+    - c405619126d214e2fba716f29a458b47: -6079965141102547391
+    - c405619126d214e2fba716f29a458b47: -6983649135101308852
+    - c405619126d214e2fba716f29a458b47: 1575559808605154654
+    - c405619126d214e2fba716f29a458b47: -5063944184051285002
+    - c405619126d214e2fba716f29a458b47: 5053179653577929093
+    - c405619126d214e2fba716f29a458b47: 1931046830726773370
+    - c405619126d214e2fba716f29a458b47: 6257932743403368881
+    - c405619126d214e2fba716f29a458b47: -3112195067975180470
+    - c405619126d214e2fba716f29a458b47: 4894625464057909285
+    - c405619126d214e2fba716f29a458b47: -646909099640243086
+    - c405619126d214e2fba716f29a458b47: -8950900020940200642
+    - c405619126d214e2fba716f29a458b47: -568028469627883041
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 6891357095817125983, guid: c405619126d214e2fba716f29a458b47, type: 3}
+  - {fileID: 2672853027243246175, guid: c405619126d214e2fba716f29a458b47, type: 3}
+  - {fileID: -458185587419916677, guid: c405619126d214e2fba716f29a458b47, type: 3}
+  - {fileID: -5547194825390550217, guid: c405619126d214e2fba716f29a458b47, type: 3}
+  - {fileID: 5184831053750644559, guid: c405619126d214e2fba716f29a458b47, type: 3}
+  - {fileID: 4345086733073366625, guid: c405619126d214e2fba716f29a458b47, type: 3}
+  - {fileID: -6079965141102547391, guid: c405619126d214e2fba716f29a458b47, type: 3}
+  - {fileID: -6983649135101308852, guid: c405619126d214e2fba716f29a458b47, type: 3}
+  - {fileID: 1575559808605154654, guid: c405619126d214e2fba716f29a458b47, type: 3}
+  - {fileID: -5063944184051285002, guid: c405619126d214e2fba716f29a458b47, type: 3}
+  - {fileID: 5053179653577929093, guid: c405619126d214e2fba716f29a458b47, type: 3}
+  - {fileID: 1931046830726773370, guid: c405619126d214e2fba716f29a458b47, type: 3}
+  - {fileID: 6257932743403368881, guid: c405619126d214e2fba716f29a458b47, type: 3}
+  - {fileID: -3112195067975180470, guid: c405619126d214e2fba716f29a458b47, type: 3}
+  - {fileID: 4894625464057909285, guid: c405619126d214e2fba716f29a458b47, type: 3}
+  - {fileID: -646909099640243086, guid: c405619126d214e2fba716f29a458b47, type: 3}
+  - {fileID: -8950900020940200642, guid: c405619126d214e2fba716f29a458b47, type: 3}
+  - {fileID: -568028469627883041, guid: c405619126d214e2fba716f29a458b47, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Wolf_2
+  - Wolf_3
+  - Wolf_0
+  - Wolf_1
+  - Wolf_6
+  - Wolf_7
+  - Wolf_4
+  - Wolf_5
+  - Wolf_8
+  - Wolf_9
+  - Wolf_11
+  - Wolf_10
+  - Wolf_13
+  - Wolf_12
+  - Wolf_15
+  - Wolf_14
+  - Wolf_17
+  - Wolf_16
+  m_RenderDataMap: {}
+  m_Tag: Wolf
+  m_IsVariant: 0

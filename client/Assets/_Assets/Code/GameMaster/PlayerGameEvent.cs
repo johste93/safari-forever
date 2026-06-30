@@ -1,0 +1,1 @@
+﻿public delegate void PlayerGameEvent(FSM_CharacterController2D.FSM_CharacterController controller);

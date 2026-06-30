@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Platypus
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 4e7258abaf7054bd3aece2e97650ad0c, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - 4e7258abaf7054bd3aece2e97650ad0c: -8221791846601612951
+    - 4e7258abaf7054bd3aece2e97650ad0c: -7739006070311031628
+    - 4e7258abaf7054bd3aece2e97650ad0c: 9002651432286753935
+    - 4e7258abaf7054bd3aece2e97650ad0c: -7485440903486956470
+    - 4e7258abaf7054bd3aece2e97650ad0c: -2737936997842525788
+    - 4e7258abaf7054bd3aece2e97650ad0c: 8643136437100567038
+    - 4e7258abaf7054bd3aece2e97650ad0c: 4280417940625885592
+    - 4e7258abaf7054bd3aece2e97650ad0c: 3759344826149396886
+    - 4e7258abaf7054bd3aece2e97650ad0c: -3157612455741635736
+    - 4e7258abaf7054bd3aece2e97650ad0c: 1835012309477612784
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: -8221791846601612951, guid: 4e7258abaf7054bd3aece2e97650ad0c, type: 3}
+  - {fileID: -7739006070311031628, guid: 4e7258abaf7054bd3aece2e97650ad0c, type: 3}
+  - {fileID: 9002651432286753935, guid: 4e7258abaf7054bd3aece2e97650ad0c, type: 3}
+  - {fileID: -7485440903486956470, guid: 4e7258abaf7054bd3aece2e97650ad0c, type: 3}
+  - {fileID: -2737936997842525788, guid: 4e7258abaf7054bd3aece2e97650ad0c, type: 3}
+  - {fileID: 8643136437100567038, guid: 4e7258abaf7054bd3aece2e97650ad0c, type: 3}
+  - {fileID: 4280417940625885592, guid: 4e7258abaf7054bd3aece2e97650ad0c, type: 3}
+  - {fileID: 3759344826149396886, guid: 4e7258abaf7054bd3aece2e97650ad0c, type: 3}
+  - {fileID: -3157612455741635736, guid: 4e7258abaf7054bd3aece2e97650ad0c, type: 3}
+  - {fileID: 1835012309477612784, guid: 4e7258abaf7054bd3aece2e97650ad0c, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Platipus_0
+  - Platipus_1
+  - Platipus_6
+  - Platipus_7
+  - Platipus_4
+  - Platipus_5
+  - Platipus_8
+  - Platipus_9
+  - Platipus_2
+  - Platipus_3
+  m_RenderDataMap: {}
+  m_Tag: Platypus
+  m_IsVariant: 0

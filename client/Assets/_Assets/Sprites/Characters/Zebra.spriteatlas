@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Zebra
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 76a7a0e3d0133fe4eb117166bbc424a3, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - 76a7a0e3d0133fe4eb117166bbc424a3: 21300000
+    - 76a7a0e3d0133fe4eb117166bbc424a3: 21300002
+    - 76a7a0e3d0133fe4eb117166bbc424a3: 21300004
+    - 76a7a0e3d0133fe4eb117166bbc424a3: 21300006
+    - 76a7a0e3d0133fe4eb117166bbc424a3: 21300008
+    - 76a7a0e3d0133fe4eb117166bbc424a3: 21300010
+    - 76a7a0e3d0133fe4eb117166bbc424a3: 21300012
+    - 76a7a0e3d0133fe4eb117166bbc424a3: 21300014
+    - 76a7a0e3d0133fe4eb117166bbc424a3: 21300016
+    - 76a7a0e3d0133fe4eb117166bbc424a3: 21300018
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 76a7a0e3d0133fe4eb117166bbc424a3, type: 3}
+  - {fileID: 21300002, guid: 76a7a0e3d0133fe4eb117166bbc424a3, type: 3}
+  - {fileID: 21300004, guid: 76a7a0e3d0133fe4eb117166bbc424a3, type: 3}
+  - {fileID: 21300006, guid: 76a7a0e3d0133fe4eb117166bbc424a3, type: 3}
+  - {fileID: 21300008, guid: 76a7a0e3d0133fe4eb117166bbc424a3, type: 3}
+  - {fileID: 21300010, guid: 76a7a0e3d0133fe4eb117166bbc424a3, type: 3}
+  - {fileID: 21300012, guid: 76a7a0e3d0133fe4eb117166bbc424a3, type: 3}
+  - {fileID: 21300014, guid: 76a7a0e3d0133fe4eb117166bbc424a3, type: 3}
+  - {fileID: 21300016, guid: 76a7a0e3d0133fe4eb117166bbc424a3, type: 3}
+  - {fileID: 21300018, guid: 76a7a0e3d0133fe4eb117166bbc424a3, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Zebra_0
+  - Zebra_1
+  - Zebra_2
+  - Zebra_3
+  - Zebra_4
+  - Zebra_5
+  - Zebra_6
+  - Zebra_7
+  - Zebra_8
+  - Zebra_9
+  m_RenderDataMap: {}
+  m_Tag: Zebra
+  m_IsVariant: 0

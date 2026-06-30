@@ -1,0 +1,22 @@
+# Graphify outputs (generated)
+graphify-out/
+graphify-out-merged/
+graphify-out-server/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Secrets / env
+.env
+.env.*
+*.pem
+*.key

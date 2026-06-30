@@ -1,0 +1,8 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.chumpware.safariforever",
+    "sha256_cert_fingerprints": ["BB:0C:B6:C8:6A:BA:40:2F:1A:31:81:02:D2:AD:DB:1F:A7:44:5B:11:D7:0F:0C:99:9D:47:BD:AD:44:7F:25:00"]
+  }
+}]
