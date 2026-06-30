@@ -41,7 +41,7 @@ All 13,392 community-created levels have been preserved and are [available for d
 | Total bananas collected  | 6,188,715 |
 
 
-### Most levels played
+### Most plays earned as a creator
 
 | #   | Player       | Total Plays |
 | --- | ------------ | ----------- |
@@ -55,6 +55,21 @@ All 13,392 community-created levels have been preserved and are [available for d
 | 8   | Davi monteir | 1,610       |
 | 9   | gghgzt       | 1,569       |
 | 10  | Dk           | 1,494       |
+
+### Most levels personally played
+
+| #   | Player      | Levels Played |
+| --- | ----------- | ------------- |
+| 1   | gghgzt      | 10,475        |
+| 2   | Ministry697 | 6,343         |
+| 3   | Kostja      | 3,751         |
+| 4   | Areyouok    | 3,518         |
+| 5   | Badankan    | 3,431         |
+| 6   | puff        | 3,202         |
+| 7   | uuuutm      | 2,861         |
+| 8   | smb1        | 2,736         |
+| 9   | yot         | 2,217         |
+| 10  | BuddyBud    | 2,133         |
 
 ### Most published levels
 
